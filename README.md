@@ -1,24 +1,69 @@
-# Cozy Interface Project
+# Cozy Interface – Responsive Frontend Application
 
 ## Project Overview
+Cozy Interface is a responsive frontend web application designed to demonstrate
+modern UI design, responsiveness, and clean layout structuring across desktop
+and mobile devices.
 
-This is the **Cozy Interface** project — a web application built with modern web technologies to provide a seamless and interactive user experience.
+This project was built as part of a frontend evaluation task to showcase skills
+in HTML, CSS, JavaScript, and responsive design principles.
 
-## How to Edit and Run This Project
+---
 
-You can work on this project locally or directly via your IDE. Make sure you have **Node.js & npm** installed.
+## Features
+### Desktop View
+- Top header navigation
+- Left sidebar (visible only on desktop)
+- Six structured content containers
+- Clean and minimal UI
 
-### Steps to Run Locally
+### Mobile View
+- Single-column responsive layout
+- Sidebar hidden by default
+- Hamburger menu for navigation
+- Touch-friendly UI elements
 
+---
+
+## Layout Structure
+| Section | Description |
+|------|------------|
+| Header | Top navigation bar |
+| Sidebar | Desktop-only navigation panel |
+| Container 1 | Image / carousel section |
+| Container 2 | Informational content |
+| Container 3 | Interactive slider |
+| Container 4 | Static text / images |
+| Container 5 | Two action buttons |
+| Container 6 | Interactive animated section |
+
+---
+
+## Technologies Used
+- HTML5
+- CSS3 (Flexbox & Media Queries)
+- JavaScript
+- Vite
+- Responsive Design Techniques
+
+---
+
+## Responsive Design
+- Media queries for mobile, tablet, and desktop
+- Sidebar hidden on small screens
+- Flexible grid system
+- Scalable images and components
+
+---
+
+## Branding
+- Custom favicon added
+- Application title updated
+- Default Lovable branding removed
+
+---
+
+## How to Run Locally
 ```bash
-# Step 1: Clone the repository
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory
-cd cozy-interface-main
-
-# Step 3: Install dependencies
 npm install
-
-# Step 4: Start the development server
 npm run dev
